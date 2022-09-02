@@ -34,3 +34,15 @@ const generate = () => {
 }
 
 generate()
+
+// sayHi function
+
+person = {
+    name: "Mick",
+    age: 30,
+    sayHi(){
+        return `Hello, my name is ${person.name}`
+    }
+}
+
+console.log(person)
