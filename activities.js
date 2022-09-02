@@ -65,3 +65,18 @@ const countDown = () => {
     }
 }
 countDown()
+
+// Storing data - breakfast-lunch-dinner
+
+const foodLogger = (mealOne, mealTwo, mealThree) => {
+    breakfast = mealOne
+    lunch = mealTwo
+    dinner = mealThree
+}
+
+foodLogger("Toast", "Soup", "Pasta")
+console.log(`Breakfast: ${breakfast}`)
+console.log(`Lunch: ${lunch}`)
+console.log(`Dinner: ${dinner}`)
+
+// Film Array - list favourite films then add 2 using a method and a loop to cycle through array
