@@ -1,8 +1,19 @@
-// pet object
+// Pet Object
 
 const pet = {
-    name: "Colin",
-    age: 10,
-    diet: "Awful",
-    git: committed
-}
+  name: "Colin",
+  typeOfPet: "cat",
+  age: 10,
+  colour: "black",
+  eat: function () {
+    return `${this.name} is eating.`;
+  },
+  drink: function () {
+    console.log(`${this.name} is drinking.`);
+  },
+};
+
+console.log(pet.eat());
+console.log(pet.drink());
+
+//
