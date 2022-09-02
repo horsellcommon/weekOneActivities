@@ -49,7 +49,6 @@ console.log(person.sayHi())
 
 // Generate and log 6 random numbers between 1-50
 
-
 const consoleLogger = () => {
     for (let t = 0; t < 6; t++){
         let thisVariable = Math.round(Math.random() * 50)
@@ -57,3 +56,12 @@ const consoleLogger = () => {
     }
 }
 consoleLogger()
+
+// Program that counts down from 9 to 0
+
+const countDown = () => {
+    for (let increment = 9; increment > -1; increment--){
+        console.log(increment)
+    }
+}
+countDown()
