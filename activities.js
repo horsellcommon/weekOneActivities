@@ -79,4 +79,12 @@ console.log(`Breakfast: ${breakfast}`)
 console.log(`Lunch: ${lunch}`)
 console.log(`Dinner: ${dinner}`)
 
-// Film Array - list favourite films then add 2 using a method and a loop to cycle through array
+// Film Array - list favourite films then add 2 using a method and then loop to cycle through array
+
+let filmArray = ["The Thing", "A Clockwork Orange", "Blade Runner"];
+
+filmArray.push("The Lighthouse", "Hitchhiker's Guide To The Galaxy")
+
+for (let i = 0; i < filmArray.length; i++) {
+  console.log(filmArray[i]);
+}
