@@ -9,7 +9,7 @@ const pet = {
     return `${this.name} is eating.`;
   },
   drink: function () {
-    console.log(`${this.name} is drinking.`);
+    return `${this.name} is drinking.`;
   },
 };
 
