@@ -16,4 +16,21 @@ const pet = {
 console.log(pet.eat());
 console.log(pet.drink());
 
-//
+// Random Number Divisible By 7
+
+let randomNumber = [];
+const generate = () => {
+    let generatedNumber = Math.round(Math.random() * 30)
+        if (randomNumber.length == 6){
+            console.log(`Your six numbers that are divisible by 7 are ${randomNumber}`)
+        } else if (generatedNumber % 7 == 0){
+            randomNumber.push(generatedNumber)
+            console.log(generatedNumber)
+            generate()
+        } else if (generatedNumber % 7 != 0){
+            console.log("Number is not divisible by 7")  
+            generate()          
+        } 
+}
+
+generate()
