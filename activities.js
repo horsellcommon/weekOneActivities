@@ -3,5 +3,6 @@
 const pet = {
     name: "Colin",
     age: 10,
-    diet: "Awful"
+    diet: "Awful",
+    git: committed
 }
