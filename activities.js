@@ -45,4 +45,4 @@ person = {
     }
 }
 
-console.log(person)
+console.log(person.sayHi())
