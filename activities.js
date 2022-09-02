@@ -82,10 +82,10 @@ console.log(`Dinner: ${dinner}`);
 // Film Array - list favourite films then add 2 using a method and then loop to cycle through array
 
 let filmArray = ["The Thing", "A Clockwork Orange", "Blade Runner"];
-console.log(filmArray)
+console.log(filmArray);
 
 filmArray.push("The Lighthouse", "Hitchhiker's Guide To The Galaxy");
-console.log(filmArray)
+console.log(filmArray);
 
 for (let i = 0; i < filmArray.length; i++) {
   console.log(filmArray[i]);
