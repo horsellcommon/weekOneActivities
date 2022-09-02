@@ -46,3 +46,14 @@ person = {
 }
 
 console.log(person.sayHi())
+
+// Generate and log 6 random numbers between 1-50
+
+
+const consoleLogger = () => {
+    for (let t = 0; t < 6; t++){
+        let thisVariable = Math.round(Math.random() * 50)
+        console.log(thisVariable)
+    }
+}
+consoleLogger()
